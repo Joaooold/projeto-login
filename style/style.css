@@ -39,6 +39,8 @@ section {
     left: 50%;
     transform: translate(-50%,-50%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+    transition: 0.3s, 0.3s;
+    transition-timing-function: ease;
 }
 section h1 {
     text-align: center;
