@@ -26,11 +26,19 @@
     #login {
         width: 70vw;
         height: 70vh;
+        
+    }
+    #formulario > h1 {
+        margin-bottom: 10px;
+    }
+    #formulario > p {
+        margin-bottom: 10px;
+
     }
     #imagen {
         float: right;
         width: 50%;
         height: 100%;
-
     }
+
 }
