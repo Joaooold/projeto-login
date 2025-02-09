@@ -16,6 +16,10 @@
         float: right;
         width: 50vw;
     }
+    .campo input {
+        width:calc(100% - 38px)
+    }
+
     
 }
 
@@ -25,7 +29,7 @@
     }
     #login {
         width: 70vw;
-        height: 70vh;
+        height: 300px;
         
     }
     #formulario > h1 {
@@ -39,6 +43,12 @@
         float: right;
         width: 50%;
         height: 100%;
+    }
+    .input-entrar, .botao-esqueci,.campo {
+        width: 49%;
+    }
+    .campo input {
+        width: calc(100% - 39px);
     }
 
 }

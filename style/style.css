@@ -40,7 +40,7 @@ section {
     transform: translate(-50%,-50%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
     transition: 0.3s, 0.3s;
-    transition-timing-function: ease;
+    transition-timing-function: ease; 
 }
 section h1 {
     text-align: center;
@@ -51,3 +51,62 @@ section h1 {
     padding: 10px;
 }
 
+.campo {
+    background-color: #5f2c82;
+    margin: 5px 0px;
+    border-radius: 5px;
+    
+}
+.campo input {
+    background-color: #66e0dc;
+    
+    width: 84%;
+    border-radius: 5px;
+    height: 35px;
+    border: none;
+    transform: translate(-2px, -3px)
+}
+.campo input:focus-within {
+    background-color: white;
+}
+span {
+    
+    color: white;
+    padding: 4px;
+}
+label {
+    display: none;
+}
+.input-entrar {
+    display: block;
+    width: 100%;
+    height: 35px;
+    font-size: 1em;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0px;
+}
+.input-entrar:hover {
+    background-color: #2a5e5c;
+}
+
+.botao-esqueci {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    background-color: white;
+    text-align: center;
+    border: 1px solid #49a09d;
+    color: black;
+    border-radius: 5px;
+    height: 35px;
+    padding-top: 4px;
+}
+
+.botao-esqueci:hover {
+    background-color: #2a5e5c;
+    color: white;
+}
